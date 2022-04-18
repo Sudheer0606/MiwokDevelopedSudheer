@@ -7,11 +7,11 @@ public class Numbers {
 
     String numbersInMiwok;
     String numbersInEnglish;
-    ImageView imageView;
-    public Numbers(String numbersInMiwok, String numbersInEnglish,ImageView img) {
+
+    public Numbers(String numbersInMiwok, String numbersInEnglish) {
         this.numbersInMiwok = numbersInMiwok;
         this.numbersInEnglish = numbersInEnglish;
-        this.imageView=img;
+
     }
 
     public String getNumbersInMiwok() {
@@ -29,11 +29,5 @@ public class Numbers {
     public void setNumbersInEnglish(String numbersInEnglish) {
         this.numbersInEnglish = numbersInEnglish;
     }
-    public ImageView getImageView() {
-        return imageView;
-    }
 
-    public void setImageView(ImageView imageView) {
-        this.imageView = imageView;
-    }
 }

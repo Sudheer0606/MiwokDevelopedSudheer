@@ -38,7 +38,6 @@ public class NumbersAdapter extends ArrayAdapter<Numbers> {
         ImageView imgView=convertView.findViewById(R.id.imgView);
         hinTv.setText(numbers.getNumbersInMiwok());
         enTv.setText(numbers.getNumbersInEnglish());
-        imgView.setImageDrawable(imgView);
 
         return convertView;
     }
